@@ -7,7 +7,7 @@ Feature: Registration Test
     Scenario: Registration should be success
         And User enter the first name as "Malavicka"
         And User enter the last name as "V"
-        And User enter the email as "mala1234567@gmail.com"
+        And User enter the email as "mala1234578912@gmail.com"
         And User enter the mobile number as "9876543210"
         And User enters the password as "Arthi123"
         And User enter the confirm password as "Arthi123"

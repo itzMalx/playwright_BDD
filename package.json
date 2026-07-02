@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "cucumber-js || true --require-module ts-node/register",
+    "test": "cucumber-js --require-module ts-node/register",
     "posttest": "npx ts-node src/helper/report.mts",
     "smoke": "cucumber-js src/test/features --tags @smoke",
     "regression": "cucumber-js src/test/features --tags @regression",
